@@ -1,5 +1,6 @@
 services:
   apps:
     build: .
-    ports: 1013:3000
+    ports: 
+      - "1013:3000"
     restart: always
